@@ -1,7 +1,7 @@
 [package]
 name = "label_studio_yolo_datasets_converter"
-version = "0.1.0"
-edition = "2024"
+version = "0.1.1"
+edition = "2021"
 repository = "https://github.com/xsxz01/label_studio_yolo_datasets_converter"
 description = "A tool for converting datasets from Label Studio to YOLO format."
 license = "MIT"

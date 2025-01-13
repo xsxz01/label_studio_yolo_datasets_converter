@@ -389,7 +389,7 @@ dependencies = [
 
 [[package]]
 name = "label_studio_yolo_datasets_converter"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
  "clap",
  "walkdir",
