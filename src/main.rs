@@ -39,6 +39,7 @@ fn cli() -> Command {
     command
         .about("label_studio_yolo_datasets_converter")
         .version("0.0.1")
+        .about("A tool for converting datasets from Label Studio to YOLO format.")
         .author("Pang")
         .arg(Arg::new("type").help("文件类型, 有效值zip, path").required(true).index(1))
         .arg(Arg::new("path").help("文件路径").required(true).index(2))
