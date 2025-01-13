@@ -1,9 +1,20 @@
 [package]
 name = "label_studio_yolo_datasets_converter"
 version = "0.1.0"
-edition = "2021"
+edition = "2024"
+repository = "https://github.com/xsxz01/label_studio_yolo_datasets_converter"
+description = "A tool for converting datasets from Label Studio to YOLO format."
+license = "MIT"
+authors = ["Pang <pangyuyu@email.cn>"]
+readme = "README.md"
+keywords = ["label-studio", "yolo", "dataset", "converter"]
+categories = ["development-tools::command-line-utilities"]
 
 [dependencies]
 clap = { version = "4.5.26", features = ["derive", "cargo"] }
 zip = "2.2.2"
 walkdir = "2.3.2"
+
+[[bin]]
+name = "lsdc"
+path = "src/main.rs"
