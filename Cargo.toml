@@ -8,7 +8,7 @@ license = "MIT"
 authors = ["Pang <pangyuyu@email.cn>"]
 readme = "README.md"
 keywords = ["label-studio", "yolo", "dataset", "converter"]
-categories = ["development-tools::command-line-utilities"]
+categories = ["development-tools", "command-line-utilities", "command-line-interface"]
 homepage = "https://github.com/xsxz01/label_studio_yolo_datasets_converter"
 documentation = "https://docs.rs/label_studio_yolo_datasets_converter"
 
