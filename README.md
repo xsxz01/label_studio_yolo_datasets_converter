@@ -46,7 +46,7 @@
 
 ## :dart: About ##
 
-- A tool to convert the YOLO formatted annotation dataset exported from Label Studio into a YOLO trainable annotation dataset format.
+A tool to convert the YOLO formatted annotation dataset exported from Label Studio into a YOLO trainable annotation dataset format.
 
 ## :sparkles: Features ##
 
