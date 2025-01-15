@@ -46,27 +46,25 @@
 
 ## :dart: About ##
 
-Describe your project
+- A tool to convert the YOLO formatted annotation dataset exported from Label Studio into a YOLO trainable annotation dataset format.
 
 ## :sparkles: Features ##
 
-:heavy_check_mark: Feature 1;\
-:heavy_check_mark: Feature 2;\
-:heavy_check_mark: Feature 3;
+:heavy_check_mark: Written purely in Rust;\
+:heavy_check_mark: Supports YOLO format exported from Label Studio;\
+:heavy_check_mark: Supports direct ZIP conversion or specifying a folder;
 
 ## :rocket: Technologies ##
 
 The following tools were used in this project:
 
-- [Expo](https://expo.io/)
-- [Node.js](https://nodejs.org/en/)
-- [React](https://pt-br.reactjs.org/)
-- [React Native](https://reactnative.dev/)
-- [TypeScript](https://www.typescriptlang.org/)
+- [Rust](https://www.rust-lang.org/)
+- [clap](https://crates.io/crates/clap)
+- [zip](https://crates.io/crates/zip)
 
 ## :white_check_mark: Requirements ##
 
-Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) and [Node](https://nodejs.org/en/) installed.
+Before starting :checkered_flag:, you need to have [Rust](https://www.rust-lang.org/) installed.
 
 ## :checkered_flag: Starting ##
 
@@ -77,13 +75,17 @@ $ git clone https://github.com/xsxz01/label_studio_yolo_datasets_converter
 # Access
 $ cd label_studio_yolo_datasets_converter
 
-# Install dependencies
-$ yarn
+# Install by source
+$ cargo install --path .
 
-# Run the project
-$ yarn start
+# Run the cli
+$ lsdc -o output_folder <method> <input_path>
 
-# The server will initialize in the <http://localhost:3000>
+# Get help
+$ lsdc --help
+
+# Get version
+$ lsdc --version
 ```
 
 ## :memo: License ##
